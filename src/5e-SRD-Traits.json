@@ -114,23 +114,35 @@
     "proficiency_choices": {
       "choose": 1,
       "type": "proficiencies",
-      "from": [
-        {
-          "index": "smiths-tools",
-          "name": "Smith's Tools",
-          "url": "/api/proficiencies/smiths-tools"
-        },
-        {
-          "index": "brewers-supplies",
-          "name": "Brewer's Supplies",
-          "url": "/api/proficiencies/brewers-supplies"
-        },
-        {
-          "index": "masons-tools",
-          "name": "Mason's Tools",
-          "url": "/api/proficiencies/masons-tools"
-        }
-      ]
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "smiths-tools",
+              "name": "Smith's Tools",
+              "url": "/api/proficiencies/smiths-tools"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "brewers-supplies",
+              "name": "Brewer's Supplies",
+              "url": "/api/proficiencies/brewers-supplies"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "masons-tools",
+              "name": "Mason's Tools",
+              "url": "/api/proficiencies/masons-tools"
+            }
+          }
+        ]
+      }
     },
     "url": "/api/traits/tool-proficiency"
   },
@@ -179,9 +191,7 @@
     ],
     "subraces": [],
     "name": "Keen Senses",
-    "desc": [
-      "You have proficiency in the Perception skill."
-    ],
+    "desc": ["You have proficiency in the Perception skill."],
     "proficiencies": [
       {
         "index": "skill-perception",
@@ -286,68 +296,123 @@
     "trait_specific": {
       "spell_options": {
         "choose": 1,
-        "from": [
-          {
-            "index": "light",
-            "name": "Light",
-            "url": "/api/spells/light"
-          },
-          {
-            "index": "mage-hand",
-            "name": "Mage Hand",
-            "url": "/api/spells/mage-hand"
-          },
-          {
-            "index": "mending",
-            "name": "Mending",
-            "url": "/api/spells/mending"
-          },
-          {
-            "index": "message",
-            "name": "Message",
-            "url": "/api/spells/message"
-          },
-          {
-            "index": "minor-illusion",
-            "name": "Minor Illusion",
-            "url": "/api/spells/minor-illusion"
-          },
-          {
-            "index": "acid-splash",
-            "name": "Acid Splash",
-            "url": "/api/spells/acid-splash"
-          },
-          {
-            "index": "prestidigitation",
-            "name": "Prestidigitation",
-            "url": "/api/spells/prestidigitation"
-          },
-          {
-            "index": "ray-of-frost",
-            "name": "Ray of Frost",
-            "url": "/api/spells/ray-of-frost"
-          },
-          {
-            "index": "shocking-grasp",
-            "name": "Shocking Grasp",
-            "url": "/api/spells/shocking-grasp"
-          },
-          {
-            "index": "true-strike",
-            "name": "True Strike",
-            "url": "/api/spells/true-strike"
-          },
-          {
-            "index": "chill-touch",
-            "name": "Chill Touch",
-            "url": "/api/spells/chill-touch"
-          },
-          {
-            "index": "dancing-lights",
-            "name": "Dancing Lights",
-            "url": "/api/spells/dancing-lights"
-          }
-        ],
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "light",
+                "name": "Light",
+                "url": "/api/spells/light"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "mage-hand",
+                "name": "Mage Hand",
+                "url": "/api/spells/mage-hand"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "mending",
+                "name": "Mending",
+                "url": "/api/spells/mending"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "message",
+                "name": "Message",
+                "url": "/api/spells/message"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "minor-illusion",
+                "name": "Minor Illusion",
+                "url": "/api/spells/minor-illusion"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "acid-splash",
+                "name": "Acid Splash",
+                "url": "/api/spells/acid-splash"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "prestidigitation",
+                "name": "Prestidigitation",
+                "url": "/api/spells/prestidigitation"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "ray-of-frost",
+                "name": "Ray of Frost",
+                "url": "/api/spells/ray-of-frost"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "shocking-grasp",
+                "name": "Shocking Grasp",
+                "url": "/api/spells/shocking-grasp"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "true-strike",
+                "name": "True Strike",
+                "url": "/api/spells/true-strike"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "chill-touch",
+                "name": "Chill Touch",
+                "url": "/api/spells/chill-touch"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dancing-lights",
+                "name": "Dancing Lights",
+                "url": "/api/spells/dancing-lights"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "fire-bolt",
+                "name": "Fire Bolt",
+                "url": "/api/spells/fire-bolt"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "poison-spray",
+                "name": "Poison Spray",
+                "url": "/api/spells/poison-spray"
+              }
+            }
+          ]
+        },
         "type": "spell"
       }
     },
@@ -368,6 +433,127 @@
       "You can speak, read, and write one extra language of your choice."
     ],
     "proficiencies": [],
+    "language_options": {
+      "choose": 1,
+      "type": "languages",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "dwarvish",
+              "name": "Dwarvish",
+              "url": "/api/languages/dwarvish"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "giant",
+              "name": "Giant",
+              "url": "/api/languages/giant"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "gnomish",
+              "name": "Gnomish",
+              "url": "/api/languages/gnomish"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "goblin",
+              "name": "Goblin",
+              "url": "/api/languages/goblin"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "halfling",
+              "name": "Halfling",
+              "url": "/api/languages/halfling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "orc",
+              "name": "Orc",
+              "url": "/api/languages/orc"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "abyssal",
+              "name": "Abyssal",
+              "url": "/api/languages/abyssal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "celestial",
+              "name": "Celestial",
+              "url": "/api/languages/celestial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "draconic",
+              "name": "Draconic",
+              "url": "/api/languages/draconic"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "deep-speech",
+              "name": "Deep Speech",
+              "url": "/api/languages/deep-speech"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "infernal",
+              "name": "Infernal",
+              "url": "/api/languages/infernal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "primordial",
+              "name": "Primordial",
+              "url": "/api/languages/primordial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "sylvan",
+              "name": "Sylvan",
+              "url": "/api/languages/sylvan"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "undercommon",
+              "name": "Undercommon",
+              "url": "/api/languages/undercommon"
+            }
+          }
+        ]
+      }
+    },
     "url": "/api/traits/extra-language"
   },
   {
@@ -398,9 +584,7 @@
     ],
     "subraces": [],
     "name": "Brave",
-    "desc": [
-      "You have advantage on saving throw against being frightened."
-    ],
+    "desc": ["You have advantage on saving throw against being frightened."],
     "proficiencies": [],
     "url": "/api/traits/brave"
   },
@@ -456,58 +640,91 @@
     "trait_specific": {
       "subtrait_options": {
         "choose": 1,
-        "from": [
-          {
-            "index": "draconic-ancestry-black",
-            "name": "Draconic Ancestry (Black)",
-            "url": "/api/traits/draconic-ancestry-black"
-          },
-          {
-            "index": "draconic-ancestry-blue",
-            "name": "Draconic Ancestry (Blue)",
-            "url": "/api/traits/draconic-ancestry-blue"
-          },
-          {
-            "index": "draconic-ancestry-brass",
-            "name": "Draconic Ancestry (Brass)",
-            "url": "/api/traits/draconic-ancestry-brass"
-          },
-          {
-            "index": "draconic-ancestry-bronze",
-            "name": "Draconic Ancestry (Bronze)",
-            "url": "/api/traits/draconic-ancestry-bronze"
-          },
-          {
-            "index": "draconic-ancestry-copper",
-            "name": "Draconic Ancestry (Copper)",
-            "url": "/api/traits/draconic-ancestry-copper"
-          },
-          {
-            "index": "draconic-ancestry-gold",
-            "name": "Draconic Ancestry (Gold)",
-            "url": "/api/traits/draconic-ancestry-gold"
-          },
-          {
-            "index": "draconic-ancestry-green",
-            "name": "Draconic Ancestry (Green)",
-            "url": "/api/traits/draconic-ancestry-green"
-          },
-          {
-            "index": "draconic-ancestry-red",
-            "name": "Draconic Ancestry (Red)",
-            "url": "/api/traits/draconic-ancestry-red"
-          },
-          {
-            "index": "draconic-ancestry-silver",
-            "name": "Draconic Ancestry (Silver)",
-            "url": "/api/traits/draconic-ancestry-silver"
-          },
-          {
-            "index": "draconic-ancestry-white",
-            "name": "Draconic Ancestry (White)",
-            "url": "/api/traits/draconic-ancestry-white"
-          }
-        ],
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-black",
+                "name": "Draconic Ancestry (Black)",
+                "url": "/api/traits/draconic-ancestry-black"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-blue",
+                "name": "Draconic Ancestry (Blue)",
+                "url": "/api/traits/draconic-ancestry-blue"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-brass",
+                "name": "Draconic Ancestry (Brass)",
+                "url": "/api/traits/draconic-ancestry-brass"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-bronze",
+                "name": "Draconic Ancestry (Bronze)",
+                "url": "/api/traits/draconic-ancestry-bronze"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-copper",
+                "name": "Draconic Ancestry (Copper)",
+                "url": "/api/traits/draconic-ancestry-copper"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-gold",
+                "name": "Draconic Ancestry (Gold)",
+                "url": "/api/traits/draconic-ancestry-gold"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-green",
+                "name": "Draconic Ancestry (Green)",
+                "url": "/api/traits/draconic-ancestry-green"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-red",
+                "name": "Draconic Ancestry (Red)",
+                "url": "/api/traits/draconic-ancestry-red"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-silver",
+                "name": "Draconic Ancestry (Silver)",
+                "url": "/api/traits/draconic-ancestry-silver"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "draconic-ancestry-white",
+                "name": "Draconic Ancestry (White)",
+                "url": "/api/traits/draconic-ancestry-white"
+              }
+            }
+          ]
+        },
         "type": "trait"
       }
     },
@@ -542,6 +759,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -602,6 +823,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -662,6 +887,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -722,6 +951,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -782,6 +1015,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 30,
+          "type": "line"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -842,6 +1079,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -902,6 +1143,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -962,6 +1207,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -1022,6 +1271,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -1082,6 +1335,10 @@
       "breath_weapon": {
         "name": "Breath Weapon",
         "desc": "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can't use it again until you complete a short or long rest.",
+        "area_of_effect": {
+          "size": 15,
+          "type": "cone"
+        },
         "usage": {
           "type": "per rest",
           "times": 1
@@ -1221,105 +1478,160 @@
     ],
     "subraces": [],
     "name": "Skill Versatility",
-    "desc": [
-      "You gain proficiency in two skills of your choice."
-    ],
+    "desc": ["You gain proficiency in two skills of your choice."],
     "proficiencies": [],
     "proficiency_choices": {
       "choose": 2,
       "type": "proficiencies",
-      "from": [
-        {
-          "index": "skill-acrobatics",
-          "name": "Skill: Acrobatics",
-          "url": "/api/proficiencies/skill-acrobatics"
-        },
-        {
-          "index": "skill-animal-handling",
-          "name": "Skill: Animal Handling",
-          "url": "/api/proficiencies/skill-animal-handling"
-        },
-        {
-          "index": "skill-arcana",
-          "name": "Skill: Arcana",
-          "url": "/api/proficiencies/skill-arcana"
-        },
-        {
-          "index": "skill-athletics",
-          "name": "Skill: Athletics",
-          "url": "/api/proficiencies/skill-athletics"
-        },
-        {
-          "index": "skill-deception",
-          "name": "Skill: Deception",
-          "url": "/api/proficiencies/skill-deception"
-        },
-        {
-          "index": "skill-history",
-          "name": "Skill: History",
-          "url": "/api/proficiencies/skill-history"
-        },
-        {
-          "index": "skill-insight",
-          "name": "Skill: Insight",
-          "url": "/api/proficiencies/skill-insight"
-        },
-        {
-          "index": "skill-intimidation",
-          "name": "Skill: Intimidation",
-          "url": "/api/proficiencies/skill-intimidation"
-        },
-        {
-          "index": "skill-investigation",
-          "name": "Skill: Investigation",
-          "url": "/api/proficiencies/skill-investigation"
-        },
-        {
-          "index": "skill-medicine",
-          "name": "Skill: Medicine",
-          "url": "/api/proficiencies/skill-medicine"
-        },
-        {
-          "index": "skill-nature",
-          "name": "Skill: Nature",
-          "url": "/api/proficiencies/skill-nature"
-        },
-        {
-          "index": "skill-perception",
-          "name": "Skill: Perception",
-          "url": "/api/proficiencies/skill-perception"
-        },
-        {
-          "index": "skill-performance",
-          "name": "Skill: Performance",
-          "url": "/api/proficiencies/skill-performance"
-        },
-        {
-          "index": "skill-persuasion",
-          "name": "Skill: Persuasion",
-          "url": "/api/proficiencies/skill-persuasion"
-        },
-        {
-          "index": "skill-religion",
-          "name": "Skill: Religion",
-          "url": "/api/proficiencies/skill-religion"
-        },
-        {
-          "index": "skill-sleight-of-hand",
-          "name": "Skill: Sleight of Hand",
-          "url": "/api/proficiencies/skill-sleight-of-hand"
-        },
-        {
-          "index": "skill-stealth",
-          "name": "Skill: Stealth",
-          "url": "/api/proficiencies/skill-stealth"
-        },
-        {
-          "index": "skill-survival",
-          "name": "Skill: Survival",
-          "url": "/api/proficiencies/skill-survival"
-        }
-      ]
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-acrobatics",
+              "name": "Skill: Acrobatics",
+              "url": "/api/proficiencies/skill-acrobatics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-animal-handling",
+              "name": "Skill: Animal Handling",
+              "url": "/api/proficiencies/skill-animal-handling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-arcana",
+              "name": "Skill: Arcana",
+              "url": "/api/proficiencies/skill-arcana"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-athletics",
+              "name": "Skill: Athletics",
+              "url": "/api/proficiencies/skill-athletics"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-deception",
+              "name": "Skill: Deception",
+              "url": "/api/proficiencies/skill-deception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-history",
+              "name": "Skill: History",
+              "url": "/api/proficiencies/skill-history"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-insight",
+              "name": "Skill: Insight",
+              "url": "/api/proficiencies/skill-insight"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-intimidation",
+              "name": "Skill: Intimidation",
+              "url": "/api/proficiencies/skill-intimidation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-investigation",
+              "name": "Skill: Investigation",
+              "url": "/api/proficiencies/skill-investigation"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-medicine",
+              "name": "Skill: Medicine",
+              "url": "/api/proficiencies/skill-medicine"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-nature",
+              "name": "Skill: Nature",
+              "url": "/api/proficiencies/skill-nature"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-perception",
+              "name": "Skill: Perception",
+              "url": "/api/proficiencies/skill-perception"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-performance",
+              "name": "Skill: Performance",
+              "url": "/api/proficiencies/skill-performance"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-persuasion",
+              "name": "Skill: Persuasion",
+              "url": "/api/proficiencies/skill-persuasion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-religion",
+              "name": "Skill: Religion",
+              "url": "/api/proficiencies/skill-religion"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-sleight-of-hand",
+              "name": "Skill: Sleight of Hand",
+              "url": "/api/proficiencies/skill-sleight-of-hand"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-stealth",
+              "name": "Skill: Stealth",
+              "url": "/api/proficiencies/skill-stealth"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "skill-survival",
+              "name": "Skill: Survival",
+              "url": "/api/proficiencies/skill-survival"
+            }
+          }
+        ]
+      }
     },
     "url": "/api/traits/skill-versatility"
   },
@@ -1334,9 +1646,7 @@
     ],
     "subraces": [],
     "name": "Menacing",
-    "desc": [
-      "You gain proficiency in the Intimidation skill."
-    ],
+    "desc": ["You gain proficiency in the Intimidation skill."],
     "proficiencies": [
       {
         "index": "skill-intimidation",
@@ -1391,9 +1701,7 @@
     ],
     "subraces": [],
     "name": "Hellish Resistance",
-    "desc": [
-      "You have resistance to fire damage."
-    ],
+    "desc": ["You have resistance to fire damage."],
     "proficiencies": [],
     "url": "/api/traits/hellish-resistance"
   },

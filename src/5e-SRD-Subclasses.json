@@ -315,9 +315,9 @@
           }
         ],
         "spell": {
-          "index": "holy-aura",
-          "name": "Holy Aura",
-          "url": "/api/spells/holy-aura"
+          "index": "ice-storm",
+          "name": "Ice Storm",
+          "url": "/api/spells/ice-storm"
         }
       },
       {
@@ -336,9 +336,9 @@
           }
         ],
         "spell": {
-          "index": "commune",
-          "name": "Commune",
-          "url": "/api/spells/commune"
+          "index": "commune-with-nature",
+          "name": "Commune With Nature",
+          "url": "/api/spells/commune-with-nature"
         }
       },
       {
@@ -357,9 +357,9 @@
           }
         ],
         "spell": {
-          "index": "comprehend-languages",
-          "name": "Comprehend Languages",
-          "url": "/api/spells/comprehend-languages"
+          "index": "cone-of-cold",
+          "name": "Cone of Cold",
+          "url": "/api/spells/cone-of-cold"
         }
       },
       {
@@ -1525,6 +1525,21 @@
       {
         "prerequisites": [
           {
+            "index": "paladin-13",
+            "type": "level",
+            "name": "Paladin 13",
+            "url": "/api/classes/paladin/levels/13"
+          }
+        ],
+        "spell": {
+          "index": "guardian-of-faith",
+          "name": "Guardian of Faith",
+          "url": "/api/spells/guardian-of-faith"
+        }
+      },
+      {
+        "prerequisites": [
+          {
             "index": "paladin-17",
             "type": "level",
             "name": "Paladin 17",
@@ -1594,7 +1609,7 @@
       "url": "/api/classes/sorcerer"
     },
     "name": "Draconic",
-    "subclass_flavor": "Sorcerous Origins",
+    "subclass_flavor": "Sorcerous Origin",
     "desc": [
       "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance."
     ],
@@ -1647,10 +1662,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-3",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 3",
+            "url": "/api/classes/warlock/levels/3"
           }
         ],
         "spell": {
@@ -1662,10 +1677,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-3",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 3",
+            "url": "/api/classes/warlock/levels/3"
           }
         ],
         "spell": {
@@ -1677,10 +1692,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-5",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 5",
+            "url": "/api/classes/warlock/levels/5"
           }
         ],
         "spell": {
@@ -1692,10 +1707,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-5",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 5",
+            "url": "/api/classes/warlock/levels/5"
           }
         ],
         "spell": {
@@ -1707,10 +1722,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-7",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 7",
+            "url": "/api/classes/warlock/levels/7"
           }
         ],
         "spell": {
@@ -1722,10 +1737,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-7",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 7",
+            "url": "/api/classes/warlock/levels/7"
           }
         ],
         "spell": {
@@ -1737,10 +1752,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-9",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 9",
+            "url": "/api/classes/warlock/levels/9"
           }
         ],
         "spell": {
@@ -1752,10 +1767,10 @@
       {
         "prerequisites": [
           {
-            "index": "warlock-1",
+            "index": "warlock-9",
             "type": "level",
-            "name": "Warlock 1",
-            "url": "/api/classes/warlock/levels/1"
+            "name": "Warlock 9",
+            "url": "/api/classes/warlock/levels/9"
           }
         ],
         "spell": {

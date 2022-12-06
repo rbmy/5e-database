@@ -23,8 +23,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -65,8 +64,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 1,
     "properties": [
@@ -121,8 +119,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 10,
     "properties": [
@@ -158,8 +155,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -209,8 +205,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -255,8 +250,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -306,8 +300,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 4,
     "properties": [
@@ -343,8 +336,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 4,
     "properties": [
@@ -393,8 +385,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -435,8 +426,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 3,
     "properties": [
@@ -666,8 +656,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 4,
     "properties": [
@@ -711,8 +700,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [],
@@ -742,8 +730,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 6,
     "properties": [
@@ -789,8 +776,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 7,
     "properties": [
@@ -831,8 +817,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 6,
     "properties": [
@@ -873,8 +858,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 6,
     "properties": [
@@ -920,8 +904,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 6,
     "properties": [
@@ -965,8 +948,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 3,
     "properties": [
@@ -1010,8 +992,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 10,
     "properties": [
@@ -1052,8 +1033,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 4,
     "properties": [],
@@ -1083,8 +1063,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 18,
     "properties": [
@@ -1130,8 +1109,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -1167,8 +1145,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 3,
     "properties": [
@@ -1209,8 +1186,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -1256,8 +1232,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 4,
     "properties": [
@@ -1310,8 +1285,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [],
@@ -1341,8 +1315,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 2,
     "properties": [
@@ -1386,8 +1359,7 @@
       }
     },
     "range": {
-      "normal": 5,
-      "long": null
+      "normal": 5
     },
     "weight": 3,
     "properties": [
@@ -1528,9 +1500,9 @@
         "url": "/api/weapon-properties/ammunition"
       },
       {
-        "index": "light",
-        "name": "Light",
-        "url": "/api/weapon-properties/light"
+        "index": "heavy",
+        "name": "Heavy",
+        "url": "/api/weapon-properties/heavy"
       },
       {
         "index": "loading",
@@ -1634,8 +1606,8 @@
     "url": "/api/equipment/net"
   },
   {
-    "index": "padded",
-    "name": "Padded",
+    "index": "padded-armor",
+    "name": "Padded Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1644,8 +1616,7 @@
     "armor_category": "Light",
     "armor_class": {
       "base": 11,
-      "dex_bonus": true,
-      "max_bonus": null
+      "dex_bonus": true
     },
     "str_minimum": 0,
     "stealth_disadvantage": true,
@@ -1654,11 +1625,11 @@
       "quantity": 5,
       "unit": "gp"
     },
-    "url": "/api/equipment/padded"
+    "url": "/api/equipment/padded-armor"
   },
   {
-    "index": "leather",
-    "name": "Leather",
+    "index": "leather-armor",
+    "name": "Leather Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1667,8 +1638,7 @@
     "armor_category": "Light",
     "armor_class": {
       "base": 11,
-      "dex_bonus": true,
-      "max_bonus": null
+      "dex_bonus": true
     },
     "str_minimum": 0,
     "stealth_disadvantage": false,
@@ -1677,11 +1647,11 @@
       "quantity": 10,
       "unit": "gp"
     },
-    "url": "/api/equipment/leather"
+    "url": "/api/equipment/leather-armor"
   },
   {
-    "index": "studded-leather",
-    "name": "Studded Leather",
+    "index": "studded-leather-armor",
+    "name": "Studded Leather Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1690,8 +1660,7 @@
     "armor_category": "Light",
     "armor_class": {
       "base": 12,
-      "dex_bonus": true,
-      "max_bonus": null
+      "dex_bonus": true
     },
     "str_minimum": 0,
     "stealth_disadvantage": false,
@@ -1700,11 +1669,11 @@
       "quantity": 45,
       "unit": "gp"
     },
-    "url": "/api/equipment/studded-leather"
+    "url": "/api/equipment/studded-leather-armor"
   },
   {
-    "index": "hide",
-    "name": "Hide",
+    "index": "hide-armor",
+    "name": "Hide Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1723,7 +1692,7 @@
       "quantity": 10,
       "unit": "gp"
     },
-    "url": "/api/equipment/hide"
+    "url": "/api/equipment/hide-armor"
   },
   {
     "index": "chain-shirt",
@@ -1795,8 +1764,8 @@
     "url": "/api/equipment/breastplate"
   },
   {
-    "index": "half-plate",
-    "name": "Half Plate",
+    "index": "half-plate-armor",
+    "name": "Half Plate Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1815,7 +1784,7 @@
       "quantity": 750,
       "unit": "gp"
     },
-    "url": "/api/equipment/half-plate"
+    "url": "/api/equipment/half-plate-armor"
   },
   {
     "index": "ring-mail",
@@ -1828,8 +1797,7 @@
     "armor_category": "Heavy",
     "armor_class": {
       "base": 14,
-      "dex_bonus": false,
-      "max_bonus": null
+      "dex_bonus": false
     },
     "str_minimum": 0,
     "stealth_disadvantage": true,
@@ -1851,8 +1819,7 @@
     "armor_category": "Heavy",
     "armor_class": {
       "base": 16,
-      "dex_bonus": false,
-      "max_bonus": null
+      "dex_bonus": false
     },
     "str_minimum": 13,
     "stealth_disadvantage": true,
@@ -1864,8 +1831,8 @@
     "url": "/api/equipment/chain-mail"
   },
   {
-    "index": "splint",
-    "name": "Splint",
+    "index": "splint-armor",
+    "name": "Splint Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1874,8 +1841,7 @@
     "armor_category": "Heavy",
     "armor_class": {
       "base": 17,
-      "dex_bonus": false,
-      "max_bonus": null
+      "dex_bonus": false
     },
     "str_minimum": 15,
     "stealth_disadvantage": true,
@@ -1884,11 +1850,11 @@
       "quantity": 200,
       "unit": "gp"
     },
-    "url": "/api/equipment/splint"
+    "url": "/api/equipment/splint-armor"
   },
   {
-    "index": "plate",
-    "name": "Plate",
+    "index": "plate-armor",
+    "name": "Plate Armor",
     "equipment_category": {
       "index": "armor",
       "name": "Armor",
@@ -1897,8 +1863,7 @@
     "armor_category": "Heavy",
     "armor_class": {
       "base": 18,
-      "dex_bonus": false,
-      "max_bonus": null
+      "dex_bonus": false
     },
     "str_minimum": 15,
     "stealth_disadvantage": true,
@@ -1907,7 +1872,7 @@
       "quantity": 1500,
       "unit": "gp"
     },
-    "url": "/api/equipment/plate"
+    "url": "/api/equipment/plate-armor"
   },
   {
     "index": "shield",
@@ -1920,8 +1885,7 @@
     "armor_category": "Shield",
     "armor_class": {
       "base": 2,
-      "dex_bonus": false,
-      "max_bonus": null
+      "dex_bonus": false
     },
     "str_minimum": 0,
     "stealth_disadvantage": false,
@@ -2019,9 +1983,7 @@
       "unit": "cp"
     },
     "weight": 0,
-    "desc": [
-      "A small box for alms, typically found in a priest's pack."
-    ],
+    "desc": ["A small box for alms, typically found in a priest's pack."],
     "url": "/api/equipment/alms-box"
   },
   {
@@ -2063,9 +2025,7 @@
       "unit": "cp"
     },
     "weight": 0,
-    "desc": [
-      "A block of incense, typically found in a priest's pack."
-    ],
+    "desc": ["A block of incense, typically found in a priest's pack."],
     "url": "/api/equipment/block-of-incense"
   },
   {
@@ -2107,9 +2067,7 @@
       "unit": "cp"
     },
     "weight": 0,
-    "desc": [
-      "A censer, typically found in a priest's pack."
-    ],
+    "desc": ["A censer, typically found in a priest's pack."],
     "url": "/api/equipment/censer"
   },
   {
@@ -2614,9 +2572,7 @@
       "unit": "gp"
     },
     "weight": 1,
-    "desc": [
-      "This wooden case can hold up to twenty crossbow bolts."
-    ],
+    "desc": ["This wooden case can hold up to twenty crossbow bolts."],
     "url": "/api/equipment/case-crossbow-bolt"
   },
   {
@@ -3449,9 +3405,7 @@
       "unit": "cp"
     },
     "weight": 0,
-    "desc": [
-      "A small bag of sand, typically found in a scholar's pack."
-    ],
+    "desc": ["A small bag of sand, typically found in a scholar's pack."],
     "url": "/api/equipment/little-bag-of-sand"
   },
   {
@@ -3736,29 +3690,6 @@
     "url": "/api/equipment/pot-iron"
   },
   {
-    "index": "potion-of-healing",
-    "name": "Potion of healing",
-    "equipment_category": {
-      "index": "adventuring-gear",
-      "name": "Adventuring Gear",
-      "url": "/api/equipment-categories/adventuring-gear"
-    },
-    "gear_category": {
-      "index": "standard-gear",
-      "name": "Standard Gear",
-      "url": "/api/equipment-categories/standard-gear"
-    },
-    "cost": {
-      "quantity": 50,
-      "unit": "gp"
-    },
-    "weight": 0.5,
-    "desc": [
-      "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action."
-    ],
-    "url": "/api/equipment/potion-of-healing"
-  },
-  {
     "index": "pouch",
     "name": "Pouch",
     "equipment_category": {
@@ -3799,9 +3730,7 @@
       "unit": "gp"
     },
     "weight": 1,
-    "desc": [
-      "A quiver can hold up to 20 arrows."
-    ],
+    "desc": ["A quiver can hold up to 20 arrows."],
     "url": "/api/equipment/quiver"
   },
   {
@@ -4081,9 +4010,7 @@
       "unit": "cp"
     },
     "weight": 0,
-    "desc": [
-      "A small knife, typically found in a scholar's pack."
-    ],
+    "desc": ["A small knife, typically found in a scholar's pack."],
     "url": "/api/equipment/small-knife"
   },
   {
@@ -4213,9 +4140,7 @@
       "unit": "gp"
     },
     "weight": 20,
-    "desc": [
-      "A simple and portable canvas shelter, a tent sleeps two."
-    ],
+    "desc": ["A simple and portable canvas shelter, a tent sleeps two."],
     "url": "/api/equipment/tent-two-person"
   },
   {
@@ -4283,9 +4208,7 @@
       "unit": "cp"
     },
     "weight": 0,
-    "desc": [
-      "Religious clothing, typically found in a priest's pack."
-    ],
+    "desc": ["Religious clothing, typically found in a priest's pack."],
     "url": "/api/equipment/vestments"
   },
   {
